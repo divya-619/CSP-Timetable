@@ -10,6 +10,7 @@ The program follows two rules:
 * DBMS and AI should not have the same time slot.
 
 It uses **Backtracking** to assign the slots. If a conflict occurs, it goes back and tries another slot.
+
 **Assign → Check → If conflict, go back → Try another slot → Continue until a valid timetable is found**
 
 Finally, it prints a valid timetable that follows all the given rules.
